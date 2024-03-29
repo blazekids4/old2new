@@ -1,5 +1,8 @@
 # Modernizing Old Code to New Code - Family Slot Machine
 
+[![Lyons Slots Demo](http://img.youtube.com/vi/bGcdEW6fYlA/0.jpg)](http://www.youtube.com/watch?v=bGcdEW6fYlA)
+
+
 ## Modernizer
 
 The Modernizer is a Python script that uses OpenAI's GPT-3 to analyze, convert to pseudocode, and generate modern code from legacy code. It's located in the [modernizer](modernizer/) directory.
