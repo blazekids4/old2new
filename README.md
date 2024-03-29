@@ -5,6 +5,8 @@
 
 Took 12 year old PHP code and with the help of the GPT-4 LLM, modernized it into Python, Flask and React.
 
+## Demo
+
 [![Lyons Slots Demo](http://img.youtube.com/vi/bGcdEW6fYlA/0.jpg)](http://www.youtube.com/watch?v=bGcdEW6fYlA)
 
 
