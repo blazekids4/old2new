@@ -1,0 +1,203 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+  
+  h1 {
+    color: #d5164c;
+    font-family: cursive;
+  }
+
+  h2 {
+    color: green;
+    font-family: cursive;
+  }
+
+  h3 {
+    color: black;
+    font-family: Arial, sans-serif;
+  }
+  
+  .slot-machine {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 0;
+  }
+  
+  .slot {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #f0c092;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    box-shadow: 0 5px 10px #f0c092;
+  }
+
+  .slot-image {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+  }
+
+  .logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+  }
+
+  .spin-text {
+    color: gray;
+    font-size: 10px;
+  }
+
+  .handle-icon {
+    color: green;
+    transition: color 0.3s ease;
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .handle-icon:hover {
+    color: #f8936c;
+  }
+  
+  .spinning {
+    animation: spin 1s infinite linear;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .handle {
+    width: 30px;
+    height: 100px;
+    background-color: #333;
+    margin: 20px auto;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .rotate-90 {
+    transform: rotate(-90deg);
+  }
+  
+  .handle:before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 20px;
+    background-color: #fff;
+    margin: 10px auto;
+    border-radius: 2px;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f8f9fa;
+  }
+
+  .balance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    max-width: 200px;
+  }
+
+  .balance label {
+    margin-bottom: 10px;
+    font-family: monospace;
+
+  }
+
+  .balance input {
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    font-family: monospace;
+    color: green;
+    font-weight: bold;
+    font-size: 3em;
+  }
+
+  .spin-results {
+    color: green;
+    font-family: cursive;
+    font-size: 1em;
+  }
+
+  .payout {
+    color: green;
+    font-family: monospace;
+    font-size: 2em;
+  }
+
+  .payout-label {
+    color: black;
+    font-family: monospace;
+    font-size: 1em;
+  }
+.payout-value {
+  color: green;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 2em;
+  animation: flash 1s infinite;
+}
+
+@keyframes flash {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+  .payout-message {
+    color: #d5164c;
+    font-family: monospace;
+    text-align: center;
+    font-size: 1em;
+  }
+
+
+  
+.button {
+  background-color: azure;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border-color: #f8f9fa;
+  cursor: pointer;
+  font-family: cursive;
+}

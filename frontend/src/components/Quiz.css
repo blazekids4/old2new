@@ -1,0 +1,18 @@
+.quiz-form {
+    font-family: cursive;
+}
+
+.quiz-question {
+    font-family: cursive;
+    padding-bottom: 20px;
+}
+
+.quiz-input {
+    font-family: cursive;
+    margin: 10px;
+}
+
+.quiz-submit {
+    font-family: cursive;
+    margin: 10px;
+}
