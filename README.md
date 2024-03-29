@@ -1,6 +1,6 @@
 # Modernizing Old Code to New Code - Family Slot Machine
 
-## Credit Deserved:
+## Give Credit Where Credit is Due...
   Built this based on a pattern built by my colleagues at Microsoft - Owen Van Valkenburg and Faris Ali Akbar, member of the AI Global Black Belt Team in Toronto.
 
 Took 12 year old PHP code and with the help of the GPT-4 LLM, modernized it into Python, Flask and React.
