@@ -15,7 +15,7 @@ import CImage from './images/C.jpeg';
 
 function App() {
   const [balance, setBalance] = useState(100); // Example starting balance
-  const [playline, setPlayline] = useState(['C', 'C', 'C']);
+  const [playline, setPlayline] = useState(['C', 'C', 'C', 'C']); // Add a fourth 'C'
   const [spinning, setSpinning] = useState(false);
   const [payout, setPayout] = useState(0);
   const [showQuiz, setShowQuiz] = useState(false);
@@ -28,11 +28,11 @@ function App() {
     setShowQuiz(true);
   };
 
-  useEffect(() => {
-    if (balance <= 0) {
-      setShowQuiz(true);
-    }
-  }, [balance]);
+  // useEffect(() => {
+  //   if (balance <= 0) {
+  //     setShowQuiz(true);
+  //   }
+  // }, [balance]);
 
   const handleQuizAnswer = (isCorrect) => {
     if (isCorrect) {
@@ -80,29 +80,29 @@ function App() {
       <br />
       <h1>Welcome to Lyons Slots!</h1>
       <div className="slot-machine">
-        {playline.map((symbol, index) => (
-          <div key={index} className={`slot ${spinning ? 'spinning' : ''}`}>
-            {symbol === 'M' ? (
-              <img src={MImage} alt="M" className="slot-image" />
-            ) : symbol === 'J' ? (
-              <img src={JImage} alt="J" className="slot-image" />
-            ) 
-            : symbol === 'S' ? (
-              <img src={SImage} alt="S" className="slot-image" />
-            )
-            : symbol === 'D' ? (
-              <img src={DImage} alt="D" className="slot-image" />
-            )
-            : symbol === 'C' ? (
-              <img src={CImage} alt="C" className="slot-image" />
-            )
-            : symbol === 'L' ? (
-              <img src={LImage} alt="L" className="slot-image" />
-            ) : (
-              symbol
-            )}
-          </div>
-        ))}
+      {playline.map((symbol, index) => (
+      <div key={index} className={`slot ${spinning ? 'spinning' : ''}`}>
+        {symbol === 'M' ? (
+          <img src={MImage} alt="M" className="slot-image" />
+        ) : symbol === 'J' ? (
+          <img src={JImage} alt="J" className="slot-image" />
+        ) 
+        : symbol === 'S' ? (
+          <img src={SImage} alt="S" className="slot-image" />
+        )
+        : symbol === 'D' ? (
+          <img src={DImage} alt="D" className="slot-image" />
+        )
+        : symbol === 'C' ? (
+          <img src={CImage} alt="C" className="slot-image" />
+        )
+        : symbol === 'L' ? (
+          <img src={LImage} alt="L" className="slot-image" />
+        ) : (
+          symbol
+        )}
+      </div>
+    ))}
       </div>
       <div onClick={handleSpin}>
       <FontAwesomeIcon className="handle-icon rotate-90" icon={faHandPointRight} size="3x" />
