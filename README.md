@@ -1,7 +1,6 @@
 # Modernizing Old Code to New Code - Family Slot Machine
 
-[![Lyons Slots Demo](http://img.youtube.com/vi/bGcdEW6fYlA/0.jpg)](http://www.youtube.com/watch?v=bGcdEW6fYlA)
-
+[![Lyons Slots Demo](http://img.youtube.com/vi/BiGcxdRM9TE/0.jpg)](http://www.youtube.com/watch?v=BiGcxdRM9TE)
 
 ## Modernizer
 
