@@ -10,7 +10,7 @@ Took 12 year old PHP code and with the help of the GPT-4 LLM, modernized it into
 ## Demo
 
 
-[![Lyons Slots Demo](http://img.youtube.com/vi/BiGcxdRM9TE/0.jpg)](http://www.youtube.com/watch?v=BiGcxdRM9TE)
+[![image](https://github.com/blazekids4/old2new/assets/45666337/8a792880-0303-40a8-9813-f20596fa2f9d)](http://www.youtube.com/watch?v=BiGcxdRM9TE)
 
 ## Modernizer
 
